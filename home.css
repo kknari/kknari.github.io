@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Yeongdo-Rg';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/Yeongdo-Rg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HS-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/HS-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'CBNUJIKJI';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/CBNUJIKJI.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* .all {
+    display: flex;
+} */
+
+.leftbox {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(177, 177, 177);
+    position: fixed;
+}
+
+h1 {
+        font-family: 'HS-Regular';
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+        padding: 50px;
+}
+
+.menu {
+    font-family: 'Yeongdo-Rg';
+    font-size: 35px;
+    font-weight: nomal;
+    text-align: center;
+}
+
+a:link {color: black; text-decoration: none;}
+a:visited {color: black; text-decoration: none;}
+a:hover {color: black; text-decoration: none;}
+
+.menu li {
+    margin-bottom: 20px;
+}
+
+.mebox {
+    width: 200px;
+    height: 200px;
+    border-radius: 70%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+.profile {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rightbox {
+    float: right;
+    width: 80%;
+}
+
+h2 {
+    font-family: 'Yeongdo-Rg';
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    padding-bottom: 5px;
+}
+
+.float-text {
+    overflow: hidden;
+    height: 30px;
+    font-family: 'CBNUJIKJI';
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.title-text {
+    float: left;
+    font-weight: bold;
+}
+
+.me-text {
+    float: right;
+    margin-left: 800px;
+}
+
+.sub-text {
+    font-weight: lighter;
+    font-size: 20px;
+    color: #a0a0a0;
+    font-family: 'CBNUJIKJI';
+    font-style: italic;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.github-img {
+    width: 300px;
+    float: left;
+}
+
+.insta-img {
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+#main,
+#about,
+#activity,
+#contact {
+    height: 100vh;
+    margin: 30px;
+}
+
+.me-pic {
+    width: 650px;
+    display: block;
+    margin: auto;
+}
